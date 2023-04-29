@@ -1,0 +1,21 @@
+<div class="content" align="center">
+    <table>
+        <td>
+            <tr align="center">
+                <div>
+                    <img src="./assets/KGBLOGO.png" height="40%" width="40%">
+                </div>
+                <div>
+                    <form (ngSubmit)="onSubmit()">
+                        <br>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" [(ngModel)]="username" required><br><br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" [(ngModel)]="password" required><br><br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </tr>
+        </td>
+    </table>
+</div>
